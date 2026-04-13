@@ -1,11 +1,16 @@
 .title-box {
-    background-color: #222222;   /* light gray */
+    background-color: #222222;
     padding: 50px;
     text-align: center;
     border-radius: 10px;
     margin: 20px auto;
     width: 85%;
+    height: 45lh;
     color: aliceblue;
+    display: flex;
+    flex-direction: row;      /* changed */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .center-item {
@@ -83,4 +88,22 @@
     color: aliceblue;
     width: 25%;
 }
+
+.title-and-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.image-container {
+    display: flex;
+    margin-right: 5%;
+}
+
+.header-image {
+    width: 50lh;
+
+}
+
+
 
