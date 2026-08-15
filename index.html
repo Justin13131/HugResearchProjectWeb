@@ -11,45 +11,232 @@
 
 <div class="title-box">
     <div class="title-and-description">
-        <h1>Mechanical Hug Project</h1>
-        <p> This is the Description </p>
+        <h1>Trace Studio</h1>
     </div>
     <div class="image-container">
-        <img class="header-image" src="tempimage.png">
+        <img class="header-image" src="PicturesDocuments/Rough_concept_illustration.png">
     </div>
 </div>
 
 <div class="content">
+
+    <!-- ABOUT / WHY -->
     <div class="row-1">
+
         <div class="about-us">
-            <h2>Problem Statement: </h2>
-            <p></p>
-            <p></p>
-            <p>"Haptic Telepresence: Recreating Human Physical Intimacy through Computer Vision and Soft Actuation."</p>
+            <h2>The "Why"</h2>
+
+            <p class="intro">
+                Trace is a soft robotic telepresence system that recreates
+                physical touch across distance.
+            </p>
+
+            <p>
+                Instead of relying on rigid humanoid robotics or wearable
+                haptics, Trace uses a tendon-driven compliant arm embedded
+                within a plush form to translate human motion into real-time
+                physical interaction.
+            </p>
+
+            <p>
+                Our goal is to make long-distance communication feel physically
+                present by combining continuum robotics, computer vision, and
+                low-latency motion control in a compact, consumer-friendly form.
+            </p>
         </div>
+
         <div class="members">
-            <h2>Members: </h2>
-            <h3>Tristen Chen:</h3>
-            <p>Undergrad Student at University of Toronto</p>
-            <h3>Justin Hsu:</h3>
-            <p>Undergrad Student at Purdue University</p>
-        </div>
-    </div>
-    <div class="center-item">
-        <script async src="https://eomail5.com/form/db2cb584-36cb-11f1-8dd1-5f2c23ff9eeb.js"
-                data-form="db2cb584-36cb-11f1-8dd1-5f2c23ff9eeb"></script>
-    </div>
-    <div class="bottom-row">
-        <div class="contacts">
-            <h2>Contacts</h2>
-            <p>Email: </p>
-        </div>
-        <div class="credits">
-            <h2>Credits</h2>
-            <p></p>
+            <h2>Lead Engineers</h2>
+
+            <h3>Tristen Chen</h3>
+            <p>Mechanical Engineering</p>
+            <p>University of Toronto</p>
+
+            <h3>Justin Hsu</h3>
+            <p>Electrical Engineering</p>
+            <p>Purdue University</p>
         </div>
 
     </div>
+
+
+    <!-- CURRENT PROGRESS -->
+    <div class="information-section">
+
+        <h2>Current Progress</h2>
+
+        <p>
+            We have developed and tested multiple versions of the mechanical
+            architecture, including a tendon-driven continuum arm built around
+            a pultruded fiberglass spine for improved stiffness and stability.
+        </p>
+
+        <p>
+            The actuation system has transitioned from hobby servos to NEMA 17
+            stepper motors with TMC2209 drivers and custom 6:1 planetary
+            gearboxes. This allows the arm to move more smoothly and precisely.
+        </p>
+
+        <p>
+            The current prototype is powered by an ESP32 control system and
+            uses MediaPipe for real-time human pose estimation. We are now
+            testing the complete motion pipeline from vision tracking to
+            physical movement.
+        </p>
+
+    </div>
+
+
+    <!-- HOW IT WORKS -->
+    <div class="information-section">
+
+        <h2>How It Works</h2>
+
+        <div class="feature-row">
+
+            <div class="feature-box">
+                <h3>Vision Tracking</h3>
+                <p>
+                    MediaPipe detects the movement and position of the user
+                    through a camera.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Tendon-Driven Mechanism</h3>
+                <p>
+                    Stepper motors pull tendons that bend and control the
+                    compliant robotic arm.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Smooth Movement</h3>
+                <p>
+                    Custom gearboxes and motor drivers create controlled,
+                    precise, and fluid movement.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Soft Exterior</h3>
+                <p>
+                    The mechanism will be placed inside a soft exterior designed
+                    to feel comfortable and safe to hold.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CURRENT FOCUS -->
+    <div class="information-section">
+
+        <h2>Current Focus</h2>
+
+        <p>
+            Our immediate focus is refining tendon tensioning, validating the
+            new stepper-driven actuation system, and designing the housing and
+            soft outer shell.
+        </p>
+
+        <p>
+            We are also working on tendon routing, slack compensation,
+            compliant joint optimization, gearbox design, and additive
+            manufacturing for functional mechanical assemblies.
+        </p>
+
+    </div>
+
+
+    <!-- FOUNDER NOTE -->
+    <div class="founder-note">
+
+        <h2>A Note on Distance</h2>
+
+        <p>Hmm. Where do I start?</p>
+
+        <p>
+            I used to think the hardest part of a long-distance relationship
+            was missing the physical intimacy and the moments when you simply
+            wanted to be beside someone.
+        </p>
+
+        <p>
+            After a year of flying back and forth, fighting schedules, and
+            trying to make a relationship work through a screen, I started to
+            realize it was something broader.
+        </p>
+
+        <h3>It was presence.</h3>
+
+        <p>
+            Being there when something happened during their day. Sitting next
+            to someone without needing a reason to call. Sharing the small,
+            ordinary moments that never make it into a FaceTime conversation.
+        </p>
+
+        <p>
+            We have become incredibly good at sending someone's voice, face,
+            and words across the world. Somehow, the simplest physical parts of
+            being together are still left behind.
+        </p>
+
+        <p>
+            I started building Trace because I could not stop thinking about
+            that gap. I wanted to create something that could make
+            “I'm here for you” feel like more than words.
+        </p>
+
+        <p>
+            I do not know yet if I have figured out how to do that.
+        </p>
+
+        <p><strong>But I am trying.</strong></p>
+
+    </div>
+
+
+    <!-- EMAIL SIGNUP -->
+    <div class="center-item">
+
+        <h2>Follow the Project</h2>
+
+        <p>
+            Join the email list for major development updates, prototype
+            announcements, and future testing opportunities.
+        </p>
+
+        <script
+                async
+                src="https://eomail5.com/form/db2cb584-36cb-11f1-8dd1-5f2c23ff9eeb.js"
+                data-form="db2cb584-36cb-11f1-8dd1-5f2c23ff9eeb">
+        </script>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="bottom-row">
+
+        <div class="contacts">
+            <h2>Contact</h2>
+            <p>
+                Email:
+            </p>
+        </div>
+
+        <div class="credits">
+            <h2>Trace Studio</h2>
+            <p>
+                Making long-distance communication feel physically present.
+            </p>
+        </div>
+
+    </div>
+
 </div>
 
 </body>

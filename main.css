@@ -1,5 +1,5 @@
 .title-box {
-    background-color: #222222;
+    background-color: #f4a630;
     padding: 50px;
     text-align: center;
     border-radius: 10px;
@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 50px;
-    background-color: #595959;   /* light gray */
+    background-color: #fb5929;   /* light gray */
     width: 85%;
     margin: 20px auto;
     border-radius: 10px;
@@ -102,8 +102,106 @@
 
 .header-image {
     width: 50lh;
-
 }
 
+.intro {
+    display: inline-block;
+    line-height: 1.5;
+}
+/* Paragraph spacing and readability */
+.about-us p,
+.information-section p,
+.founder-note p {
+    line-height: 1.7;
+}
+
+/* Regular information sections */
+.information-section {
+    width: 75%;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #f4a630;
+    color: white;
+    text-align: center;
+}
+
+/* Four feature boxes */
+.feature-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.feature-box {
+    width: 22%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fb5929;
+}
+
+/* Founder story */
+.founder-note {
+    width: 65%;
+    margin: 20px auto;
+    padding: 60px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    color: #292929;
+    text-align: left;
+}
+
+.founder-note h2 {
+    text-align: center;
+}
+
+.founder-note h3 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+/* Email signup section */
+.center-item {
+    width: 75%;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #fb5929;
+    color: white;
+    text-align: center;
+}
+
+/* Footer email link */
+.contacts a {
+    color: white;
+}
+
+/* Phone layout */
+@media screen and (max-width: 800px) {
+    .row-1,
+    .feature-row,
+    .bottom-row {
+        flex-direction: column;
+    }
+
+    .about-us,
+    .members,
+    .feature-box,
+    .contacts,
+    .credits {
+        width: auto;
+    }
+
+    .information-section,
+    .founder-note,
+    .center-item {
+        width: 80%;
+        padding: 30px;
+    }
+}
 
 
